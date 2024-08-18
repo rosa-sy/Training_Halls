@@ -1,0 +1,116 @@
+
+*{
+/* margin:0; */
+
+}
+body{
+    background-image: url("../../images/bglogg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;    
+    margin: 0;
+}
+h2{
+    text-align: center;
+    font-family: Tajawal;
+    color: #3E5B70;
+    font-size: 40px;
+    font-weight: 600;
+    margin-top: 40px;
+    font-size: 40px;
+}
+h4 {
+    text-align: center;
+    color: #707EF1;
+    font-family: Tajawal;
+    font-weight: 500;
+    margin: 20px;
+    font-size: 20px;
+}
+.h6 {
+    text-align: center;
+    color: #3E5B70;
+    font-family: Tajawal;
+    font-weight: 500;
+    margin: 20px;
+    font-size: 20px;
+}
+#admin{
+    width:66px;
+    height:56px; 
+    margin-left:20px;
+}
+.container {
+    top: 200px;
+    position:relative;
+    left: 36%;  
+    transform: translate(-50%, -50%);
+    width: 80% ;
+    height: 60%;
+    background-color: rgba(255, 255, 255, 0.25);
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 8, 0.4);
+    overflow: none;
+    
+    text-align: center;
+    font-size: 15px;
+ 
+    
+}
+.column{
+    float: left;
+    width: 33%;
+    height: 150px;
+    direction: rtl;
+    justify-content: space-between;
+    padding-bottom: 30%;
+
+}
+.row::after{
+    content: "";
+    display: table;
+    clear: both;
+    padding: 20px 25px;
+    margin: 15px;
+
+
+}
+.thead{
+    background-color:#27ABD9;
+
+}
+input[type="submit"] {
+padding: 2px;
+align-items: center;
+box-shadow: 0 0 10px rgba(1, 1, 1, 0.2);
+border:none;
+justify-content: center;
+color: rgba(255, 255, 255, 1);
+border-radius: 16px;
+background-color: #27ABD9;
+font-size: 20px;
+font-family: Tajawal;
+font-weight: 400;
+width:80px;
+
+}
+input[type="text"]{
+padding: 5px;
+font-size: 16px;
+border-radius: 40px;
+border: 2px solid #FFF;
+margin: 5px;
+cursor: pointer;
+background-color: transparent;
+width: 150px;
+height: 30%;
+color:#707EF1;
+font-weight: bold;
+font-family: Tajawal;
+color-scheme: white;
+}
